@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.primeiro, .segundo, .terceiro, .quarto {
+    position: relative;  
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 15px;
+    border: 10px solid darkblue;
+}
+
+.primeiro { background-color: coral; }
+.segundo  { background-color: lightpink; }
+.terceiro { background-color: cornflowerblue; }
+.quarto   { background-color: springgreen; }
+
+.quarto img {
+    width: 100%;
+    height: auto;
+}
